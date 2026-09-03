@@ -21,31 +21,10 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      # This project was assembled in a sandbox with no internet access, so
-      # the real gradle-wrapper.jar (a binary pulled from Gradle's servers)
-      # couldn't be generated — gradle-wrapper.properties is present, but
-      # ./gradlew has nothing to bootstrap from yet. This installs Gradle
-      # directly instead of relying on the wrapper.
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: "8.7"
-
-      - name: Regenerate the Gradle wrapper (so future local ./gradlew runs work too)
-        run: gradle wrapper --gradle-version 8.7
-
-      # gradlew and gradlew.bat are already committed to this repo; the one
-      # piece that couldn't be produced offline is gradle-wrapper.jar
-      # itself. The step above just generated a real one using GitHub's
-      # network access — upload it so it can be downloaded and dropped
-      # straight into gradle/wrapper/ locally, making ./gradlew work
-      # outside of CI too.
-      - name: Upload generated gradle-wrapper.jar
-        uses: actions/upload-artifact@v4
-        with:
-          name: gradle-wrapper-jar
-          path: gradle/wrapper/gradle-wrapper.jar
-          if-no-files-found: error
 
       - name: Build debug APK
         run: gradle assembleDebug --stacktrace
