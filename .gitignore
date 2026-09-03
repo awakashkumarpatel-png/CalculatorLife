@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+app/build/
+*/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+
+# Keystores (never commit real signing keys)
+*.jks
+*.keystore
+
+# Captures
+captures/
+.externalNativeBuild/
+.cxx/

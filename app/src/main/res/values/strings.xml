@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator Life</string>
+
+    <!-- Menu -->
+    <string name="menu_basic">Basic</string>
+    <string name="menu_finance">Finance &amp; Investment</string>
+    <string name="menu_business">Business</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_history">History</string>
+    <string name="menu_vault">Private Vault</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_coming_soon">Available in a later build phase</string>
+
+    <!-- History screen -->
+    <string name="history_empty">No calculations saved yet</string>
+    <string name="history_clear_all">Clear All</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_clear_confirm_title">Clear all history?</string>
+    <string name="history_clear_confirm_body">This removes every saved calculation. This can\'t be undone.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Clear</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_empty">No favorites yet — tap the star next to any calculator in the menu</string>
+    <string name="favorites_unfavorite">Remove from favorites</string>
+
+    <!-- Vault: unlock / setup -->
+    <string name="vault_title">Private Vault</string>
+    <string name="vault_create_pin_title">Create a Vault PIN</string>
+    <string name="vault_create_pin_body">This PIN protects your private photos and videos. Choose at least 4 digits.</string>
+    <string name="vault_enter_pin">Enter PIN</string>
+    <string name="vault_confirm_pin">Confirm PIN</string>
+    <string name="vault_pin_mismatch">PINs don\'t match</string>
+    <string name="vault_pin_too_short">PIN must be at least 4 digits</string>
+    <string name="vault_unlock_title">Enter your Vault PIN</string>
+    <string name="vault_wrong_pin">Incorrect PIN</string>
+    <string name="vault_use_biometric">Use biometric unlock</string>
+    <string name="vault_biometric_title">Unlock Private Vault</string>
+    <string name="vault_biometric_subtitle">Use your fingerprint or face to continue</string>
+    <string name="vault_unlock_button">Unlock</string>
+    <string name="vault_create_button">Create PIN</string>
+
+    <!-- Vault: home -->
+    <string name="vault_tab_photos">Photos</string>
+    <string name="vault_tab_videos">Videos</string>
+    <string name="vault_tab_albums">Albums</string>
+    <string name="vault_import">Import</string>
+    <string name="vault_empty_photos">No private photos yet</string>
+    <string name="vault_empty_videos">No private videos yet</string>
+    <string name="vault_empty_albums">No albums yet</string>
+    <string name="vault_delete_media">Delete</string>
+    <string name="vault_delete_confirm_title">Delete this item?</string>
+    <string name="vault_delete_confirm_body">This permanently removes it from the vault.</string>
+    <string name="vault_new_album">New Album</string>
+    <string name="vault_album_name">Album name</string>
+    <string name="vault_change_pin">Change PIN</string>
+    <string name="vault_current_pin">Current PIN</string>
+    <string name="vault_new_pin">New PIN</string>
+    <string name="vault_pin_changed">PIN updated</string>
+    <string name="vault_biometric_setting">Enable biometric unlock</string>
+
+    <!-- Settings screen -->
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">System</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_hindi">हिन्दी</string>
+    <string name="settings_calculator_prefs">Calculator Preferences</string>
+    <string name="settings_decimal_places">Decimal places (Standard &amp; Scientific)</string>
+    <string name="settings_history">History</string>
+    <string name="settings_history_clear">Clear all saved calculations</string>
+    <string name="settings_vault_security">Vault Security</string>
+    <string name="settings_biometric">Biometric unlock</string>
+    <string name="settings_biometric_no_pin">Set up a Vault PIN first to enable this</string>
+    <string name="settings_change_pin_hint">Open the Private Vault to change your PIN</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_body">Everything you enter — history, favorites, and vault contents — is stored only on this device. Nothing is uploaded to any server by default, and vault photos/videos are encrypted at rest.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_body">Calculator Life — a calculator-first app with everyday, financial, and business calculators, plus a private, PIN-protected vault for photos and videos.</string>
+    <string name="settings_open">Open</string>
+
+    <!-- Calculators (Basic) -->
+    <string name="calc_standard">Standard</string>
+    <string name="calc_scientific">Scientific</string>
+    <string name="calc_percentage">Percentage</string>
+    <string name="calc_fraction">Fraction</string>
+    <string name="calc_ratio">Ratio</string>
+    <string name="calc_average">Average</string>
+    <string name="calc_age">Age</string>
+    <string name="calc_date_difference">Date Difference</string>
+    <string name="calc_time">Time</string>
+
+    <!-- Calculators (Finance & Investment) -->
+    <string name="calc_emi">EMI</string>
+    <string name="calc_sip">SIP</string>
+    <string name="calc_loan">Loan</string>
+    <string name="calc_home_loan">Home Loan</string>
+    <string name="calc_personal_loan">Personal Loan</string>
+    <string name="calc_car_loan">Car Loan</string>
+    <string name="calc_fd">FD</string>
+    <string name="calc_rd">RD</string>
+    <string name="calc_ppf">PPF</string>
+    <string name="calc_simple_interest">Simple Interest</string>
+    <string name="calc_compound_interest">Compound Interest</string>
+    <string name="calc_gst">GST</string>
+    <string name="calc_discount">Discount</string>
+    <string name="calc_profit_loss">Profit &amp; Loss</string>
+    <string name="calc_salary">Salary</string>
+    <string name="calc_income_tax">Income Tax</string>
+    <string name="calc_inflation">Inflation</string>
+    <string name="calc_investment_return">Investment Return</string>
+
+    <!-- Calculators (Business) -->
+    <string name="calc_margin">Margin</string>
+    <string name="calc_markup">Markup</string>
+    <string name="calc_commission">Commission</string>
+    <string name="calc_break_even">Break-even</string>
+    <string name="calc_tax">Tax</string>
+
+    <!-- Standard calculator -->
+    <string name="action_menu">Menu</string>
+    <string name="action_history">History</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_backspace">Backspace</string>
+    <string name="error_expression">Error</string>
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_result">Result</string>
+
+    <!-- Percentage calculator -->
+    <string name="percentage_mode_value_of">X% of Y</string>
+    <string name="percentage_mode_what_percent">X is % of Y</string>
+    <string name="percentage_mode_increase">Increase Y by X%</string>
+    <string name="percentage_mode_decrease">Decrease Y by X%</string>
+    <string name="percentage_mode_percent_change">% change Y→X</string>
+    <string name="percentage_label_x">X</string>
+    <string name="percentage_label_y">Y</string>
+
+    <!-- Fraction calculator -->
+    <string name="fraction_numerator">Numerator</string>
+    <string name="fraction_denominator">Denominator</string>
+    <string name="fraction_first">First fraction</string>
+    <string name="fraction_second">Second fraction</string>
+
+    <!-- Ratio calculator -->
+    <string name="ratio_mode_simplify">Simplify A:B</string>
+    <string name="ratio_mode_proportion">Solve A:B = C:X</string>
+    <string name="ratio_label_a">A</string>
+    <string name="ratio_label_b">B</string>
+    <string name="ratio_label_c">C</string>
+
+    <!-- Average calculator -->
+    <string name="average_input_hint">Enter numbers separated by commas or spaces</string>
+    <string name="average_mean">Average (Mean)</string>
+    <string name="average_sum">Sum</string>
+    <string name="average_count">Count</string>
+    <string name="average_min">Minimum</string>
+    <string name="average_max">Maximum</string>
+
+    <!-- Age calculator -->
+    <string name="age_birth_date">Date of Birth</string>
+    <string name="age_as_of_date">As of Date</string>
+    <string name="age_use_today">Use today\'s date</string>
+    <string name="date_day">Day</string>
+    <string name="date_month">Month</string>
+    <string name="date_year">Year</string>
+    <string name="age_result">Age</string>
+    <string name="age_years_months_days">%1$d years, %2$d months, %3$d days</string>
+    <string name="age_total_days">Total days lived</string>
+    <string name="age_total_weeks">Total weeks</string>
+    <string name="age_total_months">Total months</string>
+    <string name="error_invalid_date">Please enter a valid date</string>
+
+    <!-- Date Difference calculator -->
+    <string name="datediff_start_date">Start Date</string>
+    <string name="datediff_end_date">End Date</string>
+    <string name="datediff_result">Difference</string>
+
+    <!-- Time calculator -->
+    <string name="time_mode_add_subtract">Add / Subtract</string>
+    <string name="time_mode_difference">Time Difference</string>
+    <string name="time_first">First</string>
+    <string name="time_second">Second</string>
+    <string name="time_start">Start time</string>
+    <string name="time_end">End time</string>
+    <string name="time_hours">HH</string>
+    <string name="time_minutes">MM</string>
+    <string name="time_seconds">SS</string>
+    <string name="time_result">Result</string>
+    <string name="time_hms_format">%1$dh %2$dm %3$ds</string>
+
+    <!-- Loan / EMI calculator (shared by EMI, Loan, Home Loan, Personal Loan, Car Loan) -->
+    <string name="loan_principal">Loan Amount</string>
+    <string name="loan_rate">Annual Interest Rate (%)</string>
+    <string name="loan_tenure_years">Tenure (Years)</string>
+    <string name="loan_emi">Monthly EMI</string>
+    <string name="loan_total_payment">Total Payment</string>
+    <string name="loan_total_interest">Total Interest</string>
+
+    <!-- SIP calculator -->
+    <string name="sip_monthly_amount">Monthly Investment</string>
+    <string name="sip_expected_return">Expected Annual Return (%)</string>
+    <string name="sip_tenure_years">Tenure (Years)</string>
+    <string name="sip_maturity_value">Maturity Value</string>
+    <string name="sip_total_invested">Total Invested</string>
+    <string name="sip_estimated_gains">Estimated Gains</string>
+
+    <!-- FD calculator -->
+    <string name="fd_principal">Deposit Amount</string>
+    <string name="fd_rate">Annual Interest Rate (%)</string>
+    <string name="fd_tenure_years">Tenure (Years)</string>
+    <string name="fd_frequency">Compounding</string>
+    <string name="fd_frequency_yearly">Yearly</string>
+    <string name="fd_frequency_half_yearly">Half-yearly</string>
+    <string name="fd_frequency_quarterly">Quarterly</string>
+    <string name="fd_frequency_monthly">Monthly</string>
+    <string name="fd_maturity_value">Maturity Value</string>
+    <string name="fd_total_interest">Total Interest</string>
+
+    <!-- RD calculator -->
+    <string name="rd_monthly_deposit">Monthly Deposit</string>
+    <string name="rd_rate">Annual Interest Rate (%)</string>
+    <string name="rd_tenure_months">Tenure (Months)</string>
+    <string name="rd_maturity_value">Maturity Value</string>
+    <string name="rd_total_deposited">Total Deposited</string>
+    <string name="rd_estimated_interest">Estimated Interest</string>
+
+    <!-- PPF calculator -->
+    <string name="ppf_annual_deposit">Annual Deposit</string>
+    <string name="ppf_rate">Annual Interest Rate (%)</string>
+    <string name="ppf_tenure_years">Tenure (Years)</string>
+    <string name="ppf_maturity_value">Maturity Value</string>
+    <string name="ppf_total_deposited">Total Deposited</string>
+    <string name="ppf_estimated_interest">Estimated Interest</string>
+
+    <!-- Simple / Compound Interest calculators -->
+    <string name="interest_principal">Principal</string>
+    <string name="interest_rate">Annual Interest Rate (%)</string>
+    <string name="interest_years">Time (Years)</string>
+    <string name="interest_amount">Interest</string>
+    <string name="interest_total_amount">Total Amount</string>
+
+    <!-- GST calculator -->
+    <string name="gst_mode_add">Add GST</string>
+    <string name="gst_mode_remove">Remove GST</string>
+    <string name="gst_amount">Amount</string>
+    <string name="gst_rate">GST Rate (%)</string>
+    <string name="gst_base_amount">Base Amount</string>
+    <string name="gst_amount_result">GST Amount</string>
+    <string name="gst_total_amount">Total Amount</string>
+
+    <!-- Discount calculator -->
+    <string name="discount_mode_by_percent">By Discount %</string>
+    <string name="discount_mode_by_final_price">By Final Price</string>
+    <string name="discount_mrp">MRP / Original Price</string>
+    <string name="discount_percent">Discount (%)</string>
+    <string name="discount_final_price">Final Price</string>
+    <string name="discount_amount">Discount Amount</string>
+    <string name="discount_result_final_price">You Pay</string>
+
+    <!-- Profit &amp; Loss calculator -->
+    <string name="pl_cost_price">Cost Price</string>
+    <string name="pl_selling_price">Selling Price</string>
+    <string name="pl_profit">Profit</string>
+    <string name="pl_loss">Loss</string>
+
+    <!-- Salary calculator -->
+    <string name="salary_basic">Basic Pay</string>
+    <string name="salary_hra">HRA</string>
+    <string name="salary_other_allowances">Other Allowances</string>
+    <string name="salary_deductions">Deductions (PF, Tax, etc.)</string>
+    <string name="salary_gross">Gross Salary</string>
+    <string name="salary_net">Net Salary</string>
+
+    <!-- Income Tax calculator -->
+    <string name="tax_annual_income">Annual Income</string>
+    <string name="tax_estimated_tax">Estimated Tax</string>
+    <string name="tax_effective_rate">Effective Rate</string>
+    <string name="tax_net_income">Income After Tax</string>
+    <string name="tax_disclaimer">Estimate only, based on simplified slab rates. Tax laws change — verify current rates with an official source or a tax professional before filing.</string>
+
+    <!-- Inflation calculator -->
+    <string name="inflation_mode_future_cost">Future Cost</string>
+    <string name="inflation_mode_real_value">Today\'s Value</string>
+    <string name="inflation_amount">Amount</string>
+    <string name="inflation_rate">Inflation Rate (%)</string>
+    <string name="inflation_years">Years</string>
+    <string name="inflation_result">Adjusted Value</string>
+
+    <!-- Investment Return (CAGR) calculator -->
+    <string name="invret_initial_value">Initial Investment</string>
+    <string name="invret_final_value">Final Value</string>
+    <string name="invret_years">Years</string>
+    <string name="invret_cagr">CAGR</string>
+    <string name="invret_absolute_gain">Absolute Gain</string>
+
+    <!-- Margin calculator -->
+    <string name="margin_mode_from_prices">From Cost &amp; Selling Price</string>
+    <string name="margin_mode_from_percent">From Cost &amp; Margin %</string>
+    <string name="margin_cost_price">Cost Price</string>
+    <string name="margin_selling_price">Selling Price</string>
+    <string name="margin_percent">Margin %</string>
+    <string name="margin_amount">Margin Amount</string>
+    <string name="margin_result_selling_price">Selling Price</string>
+
+    <!-- Markup calculator -->
+    <string name="markup_mode_from_prices">From Cost &amp; Selling Price</string>
+    <string name="markup_mode_from_percent">From Cost &amp; Markup %</string>
+    <string name="markup_cost_price">Cost Price</string>
+    <string name="markup_selling_price">Selling Price</string>
+    <string name="markup_percent">Markup %</string>
+    <string name="markup_amount">Markup Amount</string>
+    <string name="markup_result_selling_price">Selling Price</string>
+
+    <!-- Commission calculator -->
+    <string name="commission_sale_amount">Sale Amount</string>
+    <string name="commission_rate">Commission Rate (%)</string>
+    <string name="commission_amount">Commission Amount</string>
+    <string name="commission_net_amount">Net Amount</string>
+
+    <!-- Break-even calculator -->
+    <string name="breakeven_fixed_costs">Fixed Costs</string>
+    <string name="breakeven_price_per_unit">Price per Unit</string>
+    <string name="breakeven_variable_cost">Variable Cost per Unit</string>
+    <string name="breakeven_units">Break-even Units</string>
+    <string name="breakeven_revenue">Break-even Revenue</string>
+    <string name="error_breakeven_impossible">Price must be higher than variable cost per unit</string>
+
+    <!-- Business Tax calculator (generic add/remove tax, reuses GST math) -->
+    <string name="tax_mode_add">Add Tax</string>
+    <string name="tax_mode_remove">Remove Tax</string>
+    <string name="tax_amount">Amount</string>
+    <string name="tax_rate">Tax Rate (%)</string>
+    <string name="tax_base_amount">Base Amount</string>
+    <string name="tax_amount_result">Tax Amount</string>
+    <string name="tax_total_amount">Total Amount</string>
+</resources>

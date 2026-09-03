@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">कैलकुलेटर लाइफ</string>
+
+    <!-- Menu -->
+    <string name="menu_basic">बेसिक</string>
+    <string name="menu_finance">फाइनेंस और निवेश</string>
+    <string name="menu_business">बिज़नेस</string>
+    <string name="menu_favorites">पसंदीदा</string>
+    <string name="menu_history">इतिहास</string>
+    <string name="menu_vault">प्राइवेट वॉल्ट</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_coming_soon">यह अगले चरण में उपलब्ध होगा</string>
+
+    <!-- History screen -->
+    <string name="history_empty">अभी तक कोई गणना सहेजी नहीं गई</string>
+    <string name="history_clear_all">सभी साफ़ करें</string>
+    <string name="history_delete">हटाएं</string>
+    <string name="history_clear_confirm_title">सारा इतिहास साफ़ करें?</string>
+    <string name="history_clear_confirm_body">इससे सभी सहेजी गई गणनाएं हट जाएंगी। यह वापस नहीं किया जा सकता।</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_confirm">साफ़ करें</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_empty">अभी तक कोई पसंदीदा नहीं — मेनू में किसी भी कैलकुलेटर के बगल में स्टार पर टैप करें</string>
+    <string name="favorites_unfavorite">पसंदीदा से हटाएं</string>
+
+    <!-- Vault: unlock / setup -->
+    <string name="vault_title">प्राइवेट वॉल्ट</string>
+    <string name="vault_create_pin_title">वॉल्ट पिन बनाएं</string>
+    <string name="vault_create_pin_body">यह पिन आपकी प्राइवेट फोटो और वीडियो की सुरक्षा करता है। कम से कम 4 अंक चुनें।</string>
+    <string name="vault_enter_pin">पिन दर्ज करें</string>
+    <string name="vault_confirm_pin">पिन की पुष्टि करें</string>
+    <string name="vault_pin_mismatch">पिन मेल नहीं खाते</string>
+    <string name="vault_pin_too_short">पिन कम से कम 4 अंकों का होना चाहिए</string>
+    <string name="vault_unlock_title">अपना वॉल्ट पिन दर्ज करें</string>
+    <string name="vault_wrong_pin">गलत पिन</string>
+    <string name="vault_use_biometric">बायोमेट्रिक अनलॉक का उपयोग करें</string>
+    <string name="vault_biometric_title">प्राइवेट वॉल्ट अनलॉक करें</string>
+    <string name="vault_biometric_subtitle">जारी रखने के लिए अपने फिंगरप्रिंट या फेस का उपयोग करें</string>
+    <string name="vault_unlock_button">अनलॉक करें</string>
+    <string name="vault_create_button">पिन बनाएं</string>
+
+    <!-- Vault: home -->
+    <string name="vault_tab_photos">फोटो</string>
+    <string name="vault_tab_videos">वीडियो</string>
+    <string name="vault_tab_albums">एल्बम</string>
+    <string name="vault_import">इम्पोर्ट करें</string>
+    <string name="vault_empty_photos">अभी तक कोई प्राइवेट फोटो नहीं</string>
+    <string name="vault_empty_videos">अभी तक कोई प्राइवेट वीडियो नहीं</string>
+    <string name="vault_empty_albums">अभी तक कोई एल्बम नहीं</string>
+    <string name="vault_delete_media">हटाएं</string>
+    <string name="vault_delete_confirm_title">इसे हटाएं?</string>
+    <string name="vault_delete_confirm_body">यह वॉल्ट से स्थायी रूप से हट जाएगा।</string>
+    <string name="vault_new_album">नया एल्बम</string>
+    <string name="vault_album_name">एल्बम का नाम</string>
+    <string name="vault_change_pin">पिन बदलें</string>
+    <string name="vault_current_pin">वर्तमान पिन</string>
+    <string name="vault_new_pin">नया पिन</string>
+    <string name="vault_pin_changed">पिन अपडेट किया गया</string>
+    <string name="vault_biometric_setting">बायोमेट्रिक अनलॉक सक्षम करें</string>
+
+    <!-- Settings screen -->
+    <string name="settings_theme">थीम</string>
+    <string name="settings_theme_system">सिस्टम</string>
+    <string name="settings_theme_light">लाइट</string>
+    <string name="settings_theme_dark">डार्क</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_language_system">सिस्टम</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_hindi">हिन्दी</string>
+    <string name="settings_calculator_prefs">कैलकुलेटर प्राथमिकताएं</string>
+    <string name="settings_decimal_places">दशमलव स्थान (स्टैंडर्ड और साइंटिफिक)</string>
+    <string name="settings_history">इतिहास</string>
+    <string name="settings_history_clear">सभी सहेजी गई गणनाएं साफ़ करें</string>
+    <string name="settings_vault_security">वॉल्ट सुरक्षा</string>
+    <string name="settings_biometric">बायोमेट्रिक अनलॉक</string>
+    <string name="settings_biometric_no_pin">इसे सक्षम करने के लिए पहले एक वॉल्ट पिन सेट करें</string>
+    <string name="settings_change_pin_hint">अपना पिन बदलने के लिए प्राइवेट वॉल्ट खोलें</string>
+    <string name="settings_privacy">प्राइवेसी</string>
+    <string name="settings_privacy_body">आपके द्वारा दर्ज की गई हर चीज़ — इतिहास, पसंदीदा और वॉल्ट सामग्री — केवल इसी डिवाइस पर सहेजी जाती है। डिफ़ॉल्ट रूप से कुछ भी किसी सर्वर पर अपलोड नहीं होता, और वॉल्ट की फोटो/वीडियो एन्क्रिप्टेड रहती हैं।</string>
+    <string name="settings_about">ऐप के बारे में</string>
+    <string name="settings_about_body">कैलकुलेटर लाइफ — रोज़मर्रा, वित्तीय और व्यावसायिक कैलकुलेटर वाला एक कैलकुलेटर-केंद्रित ऐप, साथ ही फोटो और वीडियो के लिए एक निजी, पिन-सुरक्षित वॉल्ट।</string>
+    <string name="settings_open">खोलें</string>
+
+    <!-- Calculators (Basic) -->
+    <string name="calc_standard">स्टैंडर्ड</string>
+    <string name="calc_scientific">साइंटिफिक</string>
+    <string name="calc_percentage">प्रतिशत</string>
+    <string name="calc_fraction">भिन्न</string>
+    <string name="calc_ratio">अनुपात</string>
+    <string name="calc_average">औसत</string>
+    <string name="calc_age">आयु</string>
+    <string name="calc_date_difference">तिथि अंतर</string>
+    <string name="calc_time">समय</string>
+
+    <!-- Calculators (Finance & Investment) -->
+    <string name="calc_emi">ईएमआई</string>
+    <string name="calc_sip">एसआईपी</string>
+    <string name="calc_loan">लोन</string>
+    <string name="calc_home_loan">होम लोन</string>
+    <string name="calc_personal_loan">पर्सनल लोन</string>
+    <string name="calc_car_loan">कार लोन</string>
+    <string name="calc_fd">एफडी</string>
+    <string name="calc_rd">आरडी</string>
+    <string name="calc_ppf">पीपीएफ</string>
+    <string name="calc_simple_interest">साधारण ब्याज</string>
+    <string name="calc_compound_interest">चक्रवृद्धि ब्याज</string>
+    <string name="calc_gst">जीएसटी</string>
+    <string name="calc_discount">छूट</string>
+    <string name="calc_profit_loss">लाभ और हानि</string>
+    <string name="calc_salary">वेतन</string>
+    <string name="calc_income_tax">आयकर</string>
+    <string name="calc_inflation">मुद्रास्फीति</string>
+    <string name="calc_investment_return">निवेश रिटर्न</string>
+
+    <!-- Calculators (Business) -->
+    <string name="calc_margin">मार्जिन</string>
+    <string name="calc_markup">मार्कअप</string>
+    <string name="calc_commission">कमीशन</string>
+    <string name="calc_break_even">ब्रेक-ईवन</string>
+    <string name="calc_tax">टैक्स</string>
+
+    <!-- Standard calculator -->
+    <string name="action_menu">मेनू</string>
+    <string name="action_history">इतिहास</string>
+    <string name="action_clear">साफ़ करें</string>
+    <string name="action_backspace">बैकस्पेस</string>
+    <string name="error_expression">त्रुटि</string>
+    <string name="error_divide_by_zero">शून्य से भाग नहीं हो सकता</string>
+    <string name="action_reset">रीसेट</string>
+    <string name="action_result">परिणाम</string>
+
+    <!-- Percentage calculator -->
+    <string name="percentage_mode_value_of">X% of Y</string>
+    <string name="percentage_mode_what_percent">X, Y का कितना % है</string>
+    <string name="percentage_mode_increase">Y को X% बढ़ाएं</string>
+    <string name="percentage_mode_decrease">Y को X% घटाएं</string>
+    <string name="percentage_mode_percent_change">% परिवर्तन Y→X</string>
+    <string name="percentage_label_x">X</string>
+    <string name="percentage_label_y">Y</string>
+
+    <!-- Fraction calculator -->
+    <string name="fraction_numerator">अंश</string>
+    <string name="fraction_denominator">हर</string>
+    <string name="fraction_first">पहली भिन्न</string>
+    <string name="fraction_second">दूसरी भिन्न</string>
+
+    <!-- Ratio calculator -->
+    <string name="ratio_mode_simplify">A:B सरल करें</string>
+    <string name="ratio_mode_proportion">A:B = C:X हल करें</string>
+    <string name="ratio_label_a">A</string>
+    <string name="ratio_label_b">B</string>
+    <string name="ratio_label_c">C</string>
+
+    <!-- Average calculator -->
+    <string name="average_input_hint">संख्याएं अल्पविराम या स्पेस से अलग करके लिखें</string>
+    <string name="average_mean">औसत (मीन)</string>
+    <string name="average_sum">योग</string>
+    <string name="average_count">गिनती</string>
+    <string name="average_min">न्यूनतम</string>
+    <string name="average_max">अधिकतम</string>
+
+    <!-- Age calculator -->
+    <string name="age_birth_date">जन्म तिथि</string>
+    <string name="age_as_of_date">तिथि तक</string>
+    <string name="age_use_today">आज की तारीख का उपयोग करें</string>
+    <string name="date_day">दिन</string>
+    <string name="date_month">महीना</string>
+    <string name="date_year">वर्ष</string>
+    <string name="age_result">आयु</string>
+    <string name="age_years_months_days">%1$d वर्ष, %2$d महीने, %3$d दिन</string>
+    <string name="age_total_days">कुल जीवित दिन</string>
+    <string name="age_total_weeks">कुल सप्ताह</string>
+    <string name="age_total_months">कुल महीने</string>
+    <string name="error_invalid_date">कृपया एक मान्य तिथि दर्ज करें</string>
+
+    <!-- Date Difference calculator -->
+    <string name="datediff_start_date">प्रारंभ तिथि</string>
+    <string name="datediff_end_date">अंतिम तिथि</string>
+    <string name="datediff_result">अंतर</string>
+
+    <!-- Time calculator -->
+    <string name="time_mode_add_subtract">जोड़ें / घटाएं</string>
+    <string name="time_mode_difference">समय अंतर</string>
+    <string name="time_first">पहला</string>
+    <string name="time_second">दूसरा</string>
+    <string name="time_start">प्रारंभ समय</string>
+    <string name="time_end">अंतिम समय</string>
+    <string name="time_hours">घं</string>
+    <string name="time_minutes">मि</string>
+    <string name="time_seconds">से</string>
+    <string name="time_result">परिणाम</string>
+    <string name="time_hms_format">%1$dघं %2$dमि %3$dसे</string>
+
+    <!-- Loan / EMI calculator (shared by EMI, Loan, Home Loan, Personal Loan, Car Loan) -->
+    <string name="loan_principal">लोन राशि</string>
+    <string name="loan_rate">वार्षिक ब्याज दर (%)</string>
+    <string name="loan_tenure_years">अवधि (वर्ष)</string>
+    <string name="loan_emi">मासिक ईएमआई</string>
+    <string name="loan_total_payment">कुल भुगतान</string>
+    <string name="loan_total_interest">कुल ब्याज</string>
+
+    <!-- SIP calculator -->
+    <string name="sip_monthly_amount">मासिक निवेश</string>
+    <string name="sip_expected_return">अपेक्षित वार्षिक रिटर्न (%)</string>
+    <string name="sip_tenure_years">अवधि (वर्ष)</string>
+    <string name="sip_maturity_value">परिपक्वता राशि</string>
+    <string name="sip_total_invested">कुल निवेश</string>
+    <string name="sip_estimated_gains">अनुमानित लाभ</string>
+
+    <!-- FD calculator -->
+    <string name="fd_principal">जमा राशि</string>
+    <string name="fd_rate">वार्षिक ब्याज दर (%)</string>
+    <string name="fd_tenure_years">अवधि (वर्ष)</string>
+    <string name="fd_frequency">चक्रवृद्धि अवधि</string>
+    <string name="fd_frequency_yearly">वार्षिक</string>
+    <string name="fd_frequency_half_yearly">अर्ध-वार्षिक</string>
+    <string name="fd_frequency_quarterly">त्रैमासिक</string>
+    <string name="fd_frequency_monthly">मासिक</string>
+    <string name="fd_maturity_value">परिपक्वता राशि</string>
+    <string name="fd_total_interest">कुल ब्याज</string>
+
+    <!-- RD calculator -->
+    <string name="rd_monthly_deposit">मासिक जमा</string>
+    <string name="rd_rate">वार्षिक ब्याज दर (%)</string>
+    <string name="rd_tenure_months">अवधि (महीने)</string>
+    <string name="rd_maturity_value">परिपक्वता राशि</string>
+    <string name="rd_total_deposited">कुल जमा</string>
+    <string name="rd_estimated_interest">अनुमानित ब्याज</string>
+
+    <!-- PPF calculator -->
+    <string name="ppf_annual_deposit">वार्षिक जमा</string>
+    <string name="ppf_rate">वार्षिक ब्याज दर (%)</string>
+    <string name="ppf_tenure_years">अवधि (वर्ष)</string>
+    <string name="ppf_maturity_value">परिपक्वता राशि</string>
+    <string name="ppf_total_deposited">कुल जमा</string>
+    <string name="ppf_estimated_interest">अनुमानित ब्याज</string>
+
+    <!-- Simple / Compound Interest calculators -->
+    <string name="interest_principal">मूलधन</string>
+    <string name="interest_rate">वार्षिक ब्याज दर (%)</string>
+    <string name="interest_years">समय (वर्ष)</string>
+    <string name="interest_amount">ब्याज</string>
+    <string name="interest_total_amount">कुल राशि</string>
+
+    <!-- GST calculator -->
+    <string name="gst_mode_add">जीएसटी जोड़ें</string>
+    <string name="gst_mode_remove">जीएसटी हटाएं</string>
+    <string name="gst_amount">राशि</string>
+    <string name="gst_rate">जीएसटी दर (%)</string>
+    <string name="gst_base_amount">मूल राशि</string>
+    <string name="gst_amount_result">जीएसटी राशि</string>
+    <string name="gst_total_amount">कुल राशि</string>
+
+    <!-- Discount calculator -->
+    <string name="discount_mode_by_percent">छूट % से</string>
+    <string name="discount_mode_by_final_price">अंतिम कीमत से</string>
+    <string name="discount_mrp">एमआरपी / मूल कीमत</string>
+    <string name="discount_percent">छूट (%)</string>
+    <string name="discount_final_price">अंतिम कीमत</string>
+    <string name="discount_amount">छूट राशि</string>
+    <string name="discount_result_final_price">आप भुगतान करें</string>
+
+    <!-- Profit &amp; Loss calculator -->
+    <string name="pl_cost_price">लागत मूल्य</string>
+    <string name="pl_selling_price">विक्रय मूल्य</string>
+    <string name="pl_profit">लाभ</string>
+    <string name="pl_loss">हानि</string>
+
+    <!-- Salary calculator -->
+    <string name="salary_basic">मूल वेतन</string>
+    <string name="salary_hra">एचआरए</string>
+    <string name="salary_other_allowances">अन्य भत्ते</string>
+    <string name="salary_deductions">कटौती (पीएफ, टैक्स आदि)</string>
+    <string name="salary_gross">सकल वेतन</string>
+    <string name="salary_net">शुद्ध वेतन</string>
+
+    <!-- Income Tax calculator -->
+    <string name="tax_annual_income">वार्षिक आय</string>
+    <string name="tax_estimated_tax">अनुमानित टैक्स</string>
+    <string name="tax_effective_rate">प्रभावी दर</string>
+    <string name="tax_net_income">टैक्स के बाद आय</string>
+    <string name="tax_disclaimer">यह केवल एक अनुमान है, सरल स्लैब दरों पर आधारित। टैक्स नियम बदलते रहते हैं — फाइल करने से पहले किसी आधिकारिक स्रोत या टैक्स विशेषज्ञ से मौजूदा दरें जरूर जांचें।</string>
+
+    <!-- Inflation calculator -->
+    <string name="inflation_mode_future_cost">भविष्य की लागत</string>
+    <string name="inflation_mode_real_value">आज का मूल्य</string>
+    <string name="inflation_amount">राशि</string>
+    <string name="inflation_rate">मुद्रास्फीति दर (%)</string>
+    <string name="inflation_years">वर्ष</string>
+    <string name="inflation_result">समायोजित मूल्य</string>
+
+    <!-- Investment Return (CAGR) calculator -->
+    <string name="invret_initial_value">प्रारंभिक निवेश</string>
+    <string name="invret_final_value">अंतिम मूल्य</string>
+    <string name="invret_years">वर्ष</string>
+    <string name="invret_cagr">सीएजीआर</string>
+    <string name="invret_absolute_gain">कुल लाभ</string>
+
+    <!-- Margin calculator -->
+    <string name="margin_mode_from_prices">लागत और विक्रय मूल्य से</string>
+    <string name="margin_mode_from_percent">लागत और मार्जिन % से</string>
+    <string name="margin_cost_price">लागत मूल्य</string>
+    <string name="margin_selling_price">विक्रय मूल्य</string>
+    <string name="margin_percent">मार्जिन %</string>
+    <string name="margin_amount">मार्जिन राशि</string>
+    <string name="margin_result_selling_price">विक्रय मूल्य</string>
+
+    <!-- Markup calculator -->
+    <string name="markup_mode_from_prices">लागत और विक्रय मूल्य से</string>
+    <string name="markup_mode_from_percent">लागत और मार्कअप % से</string>
+    <string name="markup_cost_price">लागत मूल्य</string>
+    <string name="markup_selling_price">विक्रय मूल्य</string>
+    <string name="markup_percent">मार्कअप %</string>
+    <string name="markup_amount">मार्कअप राशि</string>
+    <string name="markup_result_selling_price">विक्रय मूल्य</string>
+
+    <!-- Commission calculator -->
+    <string name="commission_sale_amount">बिक्री राशि</string>
+    <string name="commission_rate">कमीशन दर (%)</string>
+    <string name="commission_amount">कमीशन राशि</string>
+    <string name="commission_net_amount">शुद्ध राशि</string>
+
+    <!-- Break-even calculator -->
+    <string name="breakeven_fixed_costs">स्थिर लागत</string>
+    <string name="breakeven_price_per_unit">प्रति यूनिट कीमत</string>
+    <string name="breakeven_variable_cost">प्रति यूनिट परिवर्तनीय लागत</string>
+    <string name="breakeven_units">ब्रेक-ईवन यूनिट</string>
+    <string name="breakeven_revenue">ब्रेक-ईवन राजस्व</string>
+    <string name="error_breakeven_impossible">कीमत, प्रति यूनिट परिवर्तनीय लागत से अधिक होनी चाहिए</string>
+
+    <!-- Business Tax calculator (generic add/remove tax, reuses GST math) -->
+    <string name="tax_mode_add">टैक्स जोड़ें</string>
+    <string name="tax_mode_remove">टैक्स हटाएं</string>
+    <string name="tax_amount">राशि</string>
+    <string name="tax_rate">टैक्स दर (%)</string>
+    <string name="tax_base_amount">मूल राशि</string>
+    <string name="tax_amount_result">टैक्स राशि</string>
+    <string name="tax_total_amount">कुल राशि</string>
+</resources>
