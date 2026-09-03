@@ -46,7 +46,6 @@ fun CalculatorKey(
             .background(color = backgroundColor, shape = CircleShape)
             .combinedClickable(
                 interactionSource = interactionSource,
-                indication = ripple(),
                 onLongClick = onLongClick,
                 onClick = onClick
             ),
